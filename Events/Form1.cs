@@ -20,12 +20,6 @@ namespace Events
         {
             label1.Text = textBox1.Text.Length.ToString();
         }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             string myName = textBox1.Text.ToString();
