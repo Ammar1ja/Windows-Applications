@@ -105,6 +105,7 @@
             this.cbCountries.Name = "cbCountries";
             this.cbCountries.Size = new System.Drawing.Size(121, 21);
             this.cbCountries.TabIndex = 7;
+            this.cbCountries.SelectedValueChanged += new System.EventHandler(this.Form1_Load);
             // 
             // lblCountries
             // 
