@@ -59,7 +59,7 @@
             this.txtNumberOfControls.Font = new System.Drawing.Font("Yet R", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.txtNumberOfControls.Location = new System.Drawing.Point(160, 54);
             this.txtNumberOfControls.Name = "txtNumberOfControls";
-            this.txtNumberOfControls.Size = new System.Drawing.Size(356, 20);
+            this.txtNumberOfControls.Size = new System.Drawing.Size(270, 20);
             this.txtNumberOfControls.TabIndex = 1;
             // 
             // btnCreateControl
@@ -72,7 +72,7 @@
             this.btnCreateControl.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnCreateControl.Location = new System.Drawing.Point(60, 80);
             this.btnCreateControl.Name = "btnCreateControl";
-            this.btnCreateControl.Size = new System.Drawing.Size(456, 29);
+            this.btnCreateControl.Size = new System.Drawing.Size(370, 29);
             this.btnCreateControl.TabIndex = 2;
             this.btnCreateControl.Text = "Create";
             this.btnCreateControl.UseVisualStyleBackColor = false;
@@ -88,11 +88,14 @@
             this.pnl.Font = new System.Drawing.Font("Yet R", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.pnl.Location = new System.Drawing.Point(60, 116);
             this.pnl.Name = "pnl";
-            this.pnl.Size = new System.Drawing.Size(456, 384);
+            this.pnl.Size = new System.Drawing.Size(370, 384);
             this.pnl.TabIndex = 3;
             // 
             // cbControlType
             // 
+            this.cbControlType.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.cbControlType.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.cbControlType.Font = new System.Drawing.Font("Yet R", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.cbControlType.FormattingEnabled = true;
@@ -102,7 +105,7 @@
             "Label"});
             this.cbControlType.Location = new System.Drawing.Point(160, 29);
             this.cbControlType.Name = "cbControlType";
-            this.cbControlType.Size = new System.Drawing.Size(356, 19);
+            this.cbControlType.Size = new System.Drawing.Size(270, 19);
             this.cbControlType.TabIndex = 4;
             // 
             // lblControlType
@@ -121,7 +124,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.ClientSize = new System.Drawing.Size(588, 540);
+            this.ClientSize = new System.Drawing.Size(502, 540);
             this.Controls.Add(this.lblControlType);
             this.Controls.Add(this.cbControlType);
             this.Controls.Add(this.pnl);
