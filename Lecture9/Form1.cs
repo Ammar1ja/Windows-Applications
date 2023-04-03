@@ -19,8 +19,8 @@ namespace Lecture9
         }
         private void btnTakeValues_Click(object sender, EventArgs e)
         {
-            Employee newEmployee = new Employee(int.Parse(txtId.Text), txtName.Text, txtDateOfBirth.Value);
-            MessageBox.Show(newEmployee.employeeInfo());
+            Employee ahmad = new Employee(int.Parse(txtId.Text), txtName.Text, txtDateOfBirth.Value);
+            MessageBox.Show(ahmad.employeeInfo());
         }
 
         private void btnCreateTextBox_Click(object sender, EventArgs e)

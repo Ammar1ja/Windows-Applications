@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Lecture7
+namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
@@ -16,16 +16,11 @@ namespace Lecture7
         {
             InitializeComponent();
         }
-
         private void button1_Click(object sender, EventArgs e)
         {
-            Form2 myForm = new Form2();
-            myForm.Show();
+            Employee ahmad = new Employee(txtName.Text, int.Parse(txtId.Text), dtpBirth.Value);
+            MessageBox.Show(ahmad.employeeInfo());
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

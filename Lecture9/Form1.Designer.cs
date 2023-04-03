@@ -42,6 +42,9 @@
             // 
             // lblName
             // 
+            this.lblName.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lblName.AutoSize = true;
             this.lblName.Location = new System.Drawing.Point(279, 118);
             this.lblName.Name = "lblName";
@@ -51,6 +54,9 @@
             // 
             // lblId
             // 
+            this.lblId.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lblId.AutoSize = true;
             this.lblId.Location = new System.Drawing.Point(279, 157);
             this.lblId.Name = "lblId";
@@ -60,6 +66,9 @@
             // 
             // lblDateOfBirth
             // 
+            this.lblDateOfBirth.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lblDateOfBirth.AutoSize = true;
             this.lblDateOfBirth.Location = new System.Drawing.Point(279, 195);
             this.lblDateOfBirth.Name = "lblDateOfBirth";
@@ -69,30 +78,42 @@
             // 
             // txtName
             // 
+            this.txtName.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txtName.Location = new System.Drawing.Point(351, 115);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(193, 20);
+            this.txtName.Size = new System.Drawing.Size(278, 20);
             this.txtName.TabIndex = 3;
             // 
             // txtId
             // 
+            this.txtId.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txtId.Location = new System.Drawing.Point(351, 150);
             this.txtId.Name = "txtId";
-            this.txtId.Size = new System.Drawing.Size(193, 20);
+            this.txtId.Size = new System.Drawing.Size(278, 20);
             this.txtId.TabIndex = 4;
             // 
             // txtDateOfBirth
             // 
+            this.txtDateOfBirth.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txtDateOfBirth.Location = new System.Drawing.Point(351, 195);
             this.txtDateOfBirth.Name = "txtDateOfBirth";
-            this.txtDateOfBirth.Size = new System.Drawing.Size(193, 20);
+            this.txtDateOfBirth.Size = new System.Drawing.Size(278, 20);
             this.txtDateOfBirth.TabIndex = 5;
             // 
             // btnTakeValues
             // 
+            this.btnTakeValues.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnTakeValues.Location = new System.Drawing.Point(282, 231);
             this.btnTakeValues.Name = "btnTakeValues";
-            this.btnTakeValues.Size = new System.Drawing.Size(262, 43);
+            this.btnTakeValues.Size = new System.Drawing.Size(347, 50);
             this.btnTakeValues.TabIndex = 6;
             this.btnTakeValues.Text = "button1";
             this.btnTakeValues.UseVisualStyleBackColor = true;
@@ -109,16 +130,23 @@
             // 
             // panel1
             // 
-            this.panel1.Location = new System.Drawing.Point(428, 291);
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel1.Location = new System.Drawing.Point(522, 291);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(116, 47);
+            this.panel1.Size = new System.Drawing.Size(107, 54);
             this.panel1.TabIndex = 7;
+            this.panel1.Visible = false;
             // 
             // btnCreateTextBox
             // 
+            this.btnCreateTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnCreateTextBox.Location = new System.Drawing.Point(282, 291);
             this.btnCreateTextBox.Name = "btnCreateTextBox";
-            this.btnCreateTextBox.Size = new System.Drawing.Size(140, 47);
+            this.btnCreateTextBox.Size = new System.Drawing.Size(225, 54);
             this.btnCreateTextBox.TabIndex = 8;
             this.btnCreateTextBox.Text = "Create TextBox";
             this.btnCreateTextBox.UseVisualStyleBackColor = true;
@@ -128,7 +156,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(885, 457);
             this.Controls.Add(this.btnCreateTextBox);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnTakeValues);

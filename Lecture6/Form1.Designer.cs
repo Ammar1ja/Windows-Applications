@@ -101,6 +101,10 @@
             // cbCountries
             // 
             this.cbCountries.FormattingEnabled = true;
+            this.cbCountries.Items.AddRange(new object[] {
+            "dfs",
+            "fs",
+            "fds"});
             this.cbCountries.Location = new System.Drawing.Point(120, 188);
             this.cbCountries.Name = "cbCountries";
             this.cbCountries.Size = new System.Drawing.Size(121, 21);

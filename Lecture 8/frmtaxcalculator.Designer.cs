@@ -39,6 +39,9 @@
             // 
             // lblAmount
             // 
+            this.lblAmount.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lblAmount.AutoSize = true;
             this.lblAmount.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAmount.Location = new System.Drawing.Point(210, 61);
@@ -46,17 +49,22 @@
             this.lblAmount.Size = new System.Drawing.Size(52, 16);
             this.lblAmount.TabIndex = 0;
             this.lblAmount.Text = "Amount";
-            this.lblAmount.Click += new System.EventHandler(this.lblAmount_Click);
             // 
             // txtAmount
             // 
+            this.txtAmount.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txtAmount.Location = new System.Drawing.Point(148, 80);
             this.txtAmount.Name = "txtAmount";
-            this.txtAmount.Size = new System.Drawing.Size(168, 20);
+            this.txtAmount.Size = new System.Drawing.Size(194, 20);
             this.txtAmount.TabIndex = 1;
             // 
             // lblTaxRate
             // 
+            this.lblTaxRate.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lblTaxRate.AutoSize = true;
             this.lblTaxRate.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTaxRate.Location = new System.Drawing.Point(491, 60);
@@ -67,13 +75,19 @@
             // 
             // txtTaxRate
             // 
+            this.txtTaxRate.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txtTaxRate.Location = new System.Drawing.Point(427, 79);
             this.txtTaxRate.Name = "txtTaxRate";
-            this.txtTaxRate.Size = new System.Drawing.Size(165, 20);
+            this.txtTaxRate.Size = new System.Drawing.Size(191, 20);
             this.txtTaxRate.TabIndex = 3;
             // 
             // lblFinalTax
             // 
+            this.lblFinalTax.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lblFinalTax.AutoSize = true;
             this.lblFinalTax.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFinalTax.Location = new System.Drawing.Point(344, 249);
@@ -84,18 +98,24 @@
             // 
             // txtFinalTax
             // 
+            this.txtFinalTax.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txtFinalTax.Enabled = false;
             this.txtFinalTax.Location = new System.Drawing.Point(263, 268);
             this.txtFinalTax.Name = "txtFinalTax";
-            this.txtFinalTax.Size = new System.Drawing.Size(221, 20);
+            this.txtFinalTax.Size = new System.Drawing.Size(247, 20);
             this.txtFinalTax.TabIndex = 6;
             // 
             // button1
             // 
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.button1.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(263, 153);
+            this.button1.Location = new System.Drawing.Point(263, 149);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(221, 49);
+            this.button1.Size = new System.Drawing.Size(247, 66);
             this.button1.TabIndex = 5;
             this.button1.Text = "Calculate Tax";
             this.button1.UseVisualStyleBackColor = true;
@@ -106,7 +126,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(752, 450);
+            this.ClientSize = new System.Drawing.Size(712, 519);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtFinalTax);
             this.Controls.Add(this.lblFinalTax);
@@ -116,7 +136,6 @@
             this.Controls.Add(this.lblAmount);
             this.Name = "Form1";
             this.Text = "Tax Calculator";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

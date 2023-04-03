@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Lecture7
+namespace WindowsFormsApp2
 {
     public partial class Form1 : Form
     {
@@ -17,15 +17,12 @@ namespace Lecture7
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnAddTextBox_Click(object sender, EventArgs e)
         {
-            Form2 myForm = new Form2();
-            myForm.Show();
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
+            TextBox textBox = new TextBox();
+            textBox.Text = txtEnterAnything.Text;
+            textBox.Enabled = false;
+            panel1.Controls.Add(textBox);
         }
     }
 }

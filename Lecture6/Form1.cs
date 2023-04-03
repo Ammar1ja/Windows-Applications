@@ -19,13 +19,11 @@ namespace Lecture6
         }
         private void Form1_Load(object sender, EventArgs e)
         {
-            dtpDateOfBirth.Value = DateTime.Now.AddYears(-18);
+            dtpDateOfBirth.Value = DateTime.Now.AddYears(-22);
             textBox1.Text = "AD1124";
             cbCountries.Items.Add("Jordan");
             cbCountries.Items.Add("Syria");
             cbCountries.Items.Add("Egypt");
         }
-
-  
     }
 }

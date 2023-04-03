@@ -16,16 +16,6 @@ namespace Lecture_8
         {
             InitializeComponent();
         }
-
-        private void lblAmount_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
         // this is the event handler of the button click event
         private void button1_Click(object sender, EventArgs e)
         {

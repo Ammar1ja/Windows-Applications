@@ -12,14 +12,19 @@ namespace Lecture9
         {
             this.id = id;
             this.name = name;
-            dateTime = DateOfBirth;
+            DateOfBirth=dateTime;
         }
         public int id { get; set; }
         public string name { get; set; }
         public DateTime DateOfBirth { get; set; }
+        public string dateOfBirth(DateTime dateTime) 
+        {
+            dateTime = DateTime.Now.AddYears(-22);
+            return dateTime.ToString();
+        }
         public string employeeInfo()
         {
-            return "Name: " + name + "\n" + "ID: " + id.ToString() + "\n" + "DOB: " + DateOfBirth.ToShortDateString();
+            return "Name: " + name + "\n" + "ID: " + id.ToString() + "\n" + "DOB: " + dateOfBirth(DateOfBirth);
         }
     }
 }
