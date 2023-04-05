@@ -42,7 +42,7 @@
             this.btnCreateControls.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnCreateControls.Location = new System.Drawing.Point(266, 82);
+            this.btnCreateControls.Location = new System.Drawing.Point(115, 129);
             this.btnCreateControls.Name = "btnCreateControls";
             this.btnCreateControls.Size = new System.Drawing.Size(212, 23);
             this.btnCreateControls.TabIndex = 0;
@@ -56,7 +56,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblCreateControls.AutoSize = true;
-            this.lblCreateControls.Location = new System.Drawing.Point(163, 87);
+            this.lblCreateControls.Location = new System.Drawing.Point(12, 134);
             this.lblCreateControls.Name = "lblCreateControls";
             this.lblCreateControls.Size = new System.Drawing.Size(74, 13);
             this.lblCreateControls.TabIndex = 1;
@@ -68,14 +68,14 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.p1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.p1.Location = new System.Drawing.Point(166, 172);
+            this.p1.Location = new System.Drawing.Point(361, 129);
             this.p1.Name = "p1";
-            this.p1.Size = new System.Drawing.Size(312, 362);
+            this.p1.Size = new System.Drawing.Size(226, 362);
             this.p1.TabIndex = 2;
             // 
             // txtNumberOfControls
             // 
-            this.txtNumberOfControls.Location = new System.Drawing.Point(266, 115);
+            this.txtNumberOfControls.Location = new System.Drawing.Point(115, 162);
             this.txtNumberOfControls.Name = "txtNumberOfControls";
             this.txtNumberOfControls.Size = new System.Drawing.Size(212, 20);
             this.txtNumberOfControls.TabIndex = 3;
@@ -83,7 +83,7 @@
             // lblControlNumber
             // 
             this.lblControlNumber.AutoSize = true;
-            this.lblControlNumber.Location = new System.Drawing.Point(163, 118);
+            this.lblControlNumber.Location = new System.Drawing.Point(12, 165);
             this.lblControlNumber.Name = "lblControlNumber";
             this.lblControlNumber.Size = new System.Drawing.Size(97, 13);
             this.lblControlNumber.TabIndex = 4;
@@ -96,7 +96,7 @@
             "Button",
             "TextBox",
             "Label"});
-            this.cbChooseControl.Location = new System.Drawing.Point(266, 145);
+            this.cbChooseControl.Location = new System.Drawing.Point(115, 192);
             this.cbChooseControl.Name = "cbChooseControl";
             this.cbChooseControl.Size = new System.Drawing.Size(212, 21);
             this.cbChooseControl.TabIndex = 5;
@@ -104,7 +104,7 @@
             // lblChooseControl
             // 
             this.lblChooseControl.AutoSize = true;
-            this.lblChooseControl.Location = new System.Drawing.Point(163, 148);
+            this.lblChooseControl.Location = new System.Drawing.Point(12, 195);
             this.lblChooseControl.Name = "lblChooseControl";
             this.lblChooseControl.Size = new System.Drawing.Size(79, 13);
             this.lblChooseControl.TabIndex = 6;
