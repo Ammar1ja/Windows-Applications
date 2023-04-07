@@ -54,7 +54,7 @@ namespace Lecture12
             txtScreen.Focus();
             count = 2;
         }
-
+        // this method is called when u click the multiply button
         private void Multiply_Click_1(object sender, EventArgs e)
         {
             num1 = float.Parse(txtScreen.Text);
