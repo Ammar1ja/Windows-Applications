@@ -19,15 +19,16 @@ namespace Lecture13
 
         private void txtName_KeyPress(object sender, KeyPressEventArgs e)
         {
-            // if the key wasn't letter or spetial charachter ignor it 
-            if (!char.IsControl(e.KeyChar) && !char.IsLetter(e.KeyChar)) 
+            // if the key wasn't letter or control charachter ignor it 
+            if (!char.IsControl(e.KeyChar) && !char.IsLetter(e.KeyChar)&&e.KeyChar!=' ') 
+                // don't write
                 e.Handled = true;
         }
 
         private void txtAge_KeyPress(object sender, KeyPressEventArgs e)
         {
             // if the key wasn't Digit or spetial charachter ignor it 
-            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar)&& !char.IsWhiteSpace(e.KeyChar))
                 e.Handled = true;
         }
 
