@@ -1,0 +1,19 @@
+Database: is a collection of related data (Tables).
+
+Table: is a collections of columns (fields, attributes), and stores data as a collection of rows (records).
+
+* We name tables by plural like(Students).
+
+A primary key is both not null and unique.
+
+Right click on Databases to create new data base
+	Right click on tables folder to create new table 
+		Right click on the created table to SELECT(show table) o EDIT(edit table and create rows) or Design (to 		add primary key).
+
+Script:
+
+	Create Database -Name-;
+	Create Table -Name-;
+	-ColumnName- -Type- PRIMARY KEY Identity(1,1)
+	Insert into Students(StudentName) values('Adi Maaita')
+	Select * from Students

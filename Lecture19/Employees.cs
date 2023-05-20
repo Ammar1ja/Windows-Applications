@@ -25,15 +25,15 @@ namespace Lecture19
             employee1.tel = "+962 795220582";
             employee1.job = "Web Developer";
             Employee employee2 = new Employee();
-            employee1.id = "as";
-            employee1.name = "Ahmad";
-            employee1.tel = "+962 795224365";
-            employee1.job = "Android Developer";
+            employee2.id = "as";
+            employee2.name = "Ahmad";
+            employee2.tel = "+962 795224365";
+            employee2.job = "Android Developer";
             Employee employee3 = new Employee();
-            employee1.id = "bm";
-            employee1.name = "Baraa";
-            employee1.tel = "+962 795350582";
-            employee1.job = "Games Developer";
+            employee3.id = "bm";
+            employee3.name = "Baraa";
+            employee3.tel = "+962 795350582";
+            employee3.job = "Games Developer";
 
             List<Employee> employeesList = new List<Employee>();
             employeesList.Add(employee1);
